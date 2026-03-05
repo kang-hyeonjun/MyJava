@@ -1,0 +1,22 @@
+package ch02_control_statement;
+
+public class ForSwitch01_ {
+    static void main(String[] args) {
+        int odd=0,even=0;
+        for (int i = 0; i < 11; i++) {
+            switch (i % 2) {
+                case 0:
+                    even += i;
+                    break;
+                case 1:
+                    odd += i;
+                    break;
+            }
+
+
+        }
+        System.out.println("홀수의 총합 : "+odd);
+        System.out.println("짝수의 총합 : "+even);
+
+    }
+}
