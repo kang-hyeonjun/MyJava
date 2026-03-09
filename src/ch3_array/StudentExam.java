@@ -22,7 +22,6 @@ public class StudentExam {
         System.out.println("학생의 정보");
         System.out.print("이름 : "+name);
         System.out.print(" 총점 : "+total);
-        System.out.printf("평균 : %.2f: ",total_b);
+        System.out.printf(" 평균 : %.2f ",total_b);
     }
 }
-
