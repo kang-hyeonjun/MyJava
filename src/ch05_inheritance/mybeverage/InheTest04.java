@@ -38,6 +38,7 @@ public class InheTest04 {
             System.out.println("------------------------------------------");
             beverage[i].showInfo();
             //instanceof : 승급된 객체 변수가 수많은 서브 클래스 중에서 어떤 클래스로 생성이 되었는 지를 판단하고자 할 때 사용합니다
+
             if (beverage[i] instanceof Americano04) { //아메리카노
                 Americano04 ameri = (Americano04) beverage[i]; //강등
                 ameri.sipAmericano();

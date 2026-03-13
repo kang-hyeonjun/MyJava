@@ -19,7 +19,13 @@ public class My_array {
 
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+
+
         }
+        System.out.println("향상된 for 구문");
+        for (int item : arr)
+            System.out.println(item);
+
 
         // 방법 02 : 초기화 기법
         int[] brr = {15, 30, 22};

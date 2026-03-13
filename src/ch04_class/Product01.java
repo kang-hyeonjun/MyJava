@@ -1,7 +1,7 @@
 package ch04_class;
 
-public class Product01 { //단계 1 클레그 정의
-    String name ; //상품명
+public class Product01 { //단계 1 클레스 정의
+    public String name ; //상품명
     int price ; //단가
     String inputdata ; //입고 일자
 
@@ -25,6 +25,7 @@ public class Product01 { //단계 1 클레그 정의
         System.out.println("입고 :  "+inputdata);
 
     }
+
 
 
 }
